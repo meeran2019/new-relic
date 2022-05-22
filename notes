@@ -1,7 +1,73 @@
 -------------------------------------------------------------------------------------------------------
-Introduction:
+INTRODUCTION: 
 -------------------------------------------------------------------------------------------------------
 
-    It has multiple integration.
-    New Relic APM (Application Performance Monitoring) 
+    APM is all about monitoring the application performance.
+    New Relic is APM (Application Performance Monitoring) which is Software as a Service.  
+    New Relic has multiple integrations like slack etc. 
+
+    It helps to check,
+        Response time of servers. 
+        Alert on time. 
+        To check any errors. 
+        Stack trace (UI -> Service -> DB)
+
+    It helps business by,
+        Reduce outages.
+        View customer experience. 
+        Meet SLA. 
+        Reduce MTTR (Mean Time To Recovery)
+
+
+-------------------------------------------------------------------------------------------------------
+ARCHITECTURE:
+-------------------------------------------------------------------------------------------------------
     
+    Browser Monitoring, Application (Node JS, Java etc), Infra, Database, Mobiles => New relic => Slack, Pagerduty etc. 
+
+    It works by Agent. Depends upon language, agent will be changed. 
+    Agent is light weight.
+    It collects lot of metrics like user behaviour etc. 
+
+
+-------------------------------------------------------------------------------------------------------
+INSTALLATION: 
+-------------------------------------------------------------------------------------------------------
+
+    1. Signup the account (https://newrelic.com/signup)
+    2. Select the operating system. 
+    3. New relic installation will be shared and run the installation in machine. 
+    4. Once installation is completed, dashboard will be shared.
+
+
+------------------------------------------------------------------------------------------------------- APPLICATION SETUP for APM (Node JS)
+-------------------------------------------------------------------------------------------------------
+
+    New Relic -> APM -> Select App (or) Service -> Node.js -> Installation procedure available.
+
+        1. Select application name
+        2. Install the agent. 
+        3. Download custom configuration file and place under root directory of project. 
+        4. Add code to application main module in starting (require('newrelic');)
+        5. Start the aplpication.
+        6. Connect with logs and infrastructure using commands shared. 
+
+
+-------------------------------------------------------------------------------------------------------
+AWS Integrations: 
+-------------------------------------------------------------------------------------------------------
+
+https://docs.newrelic.com/docs/infrastructure/amazon-integrations/connect/connect-aws-new-relic-infrastructure-monitoring/
+
+
+-------------------------------------------------------------------------------------------------------
+APPLICATION SETUP for APM (JAVA)
+-------------------------------------------------------------------------------------------------------
+
+    New Relic -> APM -> Select App (or) Service -> Java -> Installation procedure available.
+
+
+-------------------------------------------------------------------------------------------------------
+NEW RELIC APM: 
+-------------------------------------------------------------------------------------------------------
+            
