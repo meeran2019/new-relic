@@ -70,4 +70,39 @@ APPLICATION SETUP for APM (JAVA)
 -------------------------------------------------------------------------------------------------------
 NEW RELIC APM: 
 -------------------------------------------------------------------------------------------------------
-            
+
+Application Overview: 
+
+    APM -> Click Application 
+        Time Picker 
+    
+        Apdex score 
+
+Service Maps: 
+
+    It shows different connections like front end, application and databases. 
+
+Error Anaytics: 
+
+    APM -> Click Application -> Error , Error Analytics 
+
+Apdex: 
+
+    APDEX - Application Performance Index 
+
+    There is calculation to get apdex score. 
+
+    0 (bad) to 1 (good)
+
+
+Transactions:    
+
+    Specific transaction can be monitored. 
+    Key transaction - Used to monitor the business critical and gives finer details.
+
+Database Monitoring: 
+    
+    Shows database performance details like throughout, highest execution time etc. 
+    
+
+
